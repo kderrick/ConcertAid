@@ -12,5 +12,49 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Concert Aid"
+        android:id="@+id/mainTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Please Enter Login Info below"
+        android:id="@+id/tvLoginMessage"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/mainTitle"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUsername"
+        android:layout_centerVertical="true"
+        android:hint="Enter User Name"
+        android:layout_alignLeft="@+id/mainTitle"
+        android:layout_alignStart="@+id/mainTitle"
+        android:layout_alignRight="@+id/mainTitle"
+        android:layout_alignEnd="@+id/mainTitle"
+        android:textSize="16sp"
+        android:gravity="center" />
+
+    <EditText
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etPassword"
+        android:layout_below="@+id/etUsername"
+        android:layout_alignLeft="@+id/etUsername"
+        android:layout_alignStart="@+id/etUsername"
+        android:layout_marginTop="62dp"
+        android:layout_alignRight="@+id/etUsername"
+        android:layout_alignEnd="@+id/etUsername"
+        android:hint="Enter Password"
+        android:gravity="center" />
 </RelativeLayout>
