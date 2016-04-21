@@ -70,5 +70,14 @@
         android:layout_alignEnd="@+id/imageView"
         android:layout_alignTop="@+id/etUsername" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/submitLoginButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0288D1" />
+
 
 </RelativeLayout>
