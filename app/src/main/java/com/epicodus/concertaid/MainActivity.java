@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             String userPassword = mETPassword.getText().toString();
 
             Intent intent = new Intent(MainActivity.this, WelcomeActivity.class);
-            intent.putExtra("userName", userPassword);
+            intent.putExtra("userName", userName);
+
             startActivity(intent);
         }
     }
