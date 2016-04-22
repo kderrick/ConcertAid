@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             Intent intent = new Intent(MainActivity.this, WelcomeActivity.class);
             intent.putExtra("userName", userName);
-
             startActivity(intent);
         }
     }
