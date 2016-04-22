@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Concert Aid"
-        android:id="@+id/mainTitle"
+        android:id="@+id/tvDisplayZipCode"
         android:textSize="50sp"
         android:textStyle="bold"
         android:textColor="#0288D1"
@@ -36,7 +36,7 @@
         android:layout_marginTop="62dp"
         android:textColor="#0288D1"
         android:textSize="24sp"
-        android:layout_below="@+id/mainTitle"
+        android:layout_below="@+id/tvDisplayZipCode"
         android:layout_centerHorizontal="true" />
 
     <EditText
